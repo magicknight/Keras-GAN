@@ -72,4 +72,4 @@ class DataLoader():
 
 
     def imread(self, path):
-        return matplotlib.pyplot.imread(path, mode='RGB').astype(np.float)
+        return plt.imread(path, mode='RGB').astype(np.float)
